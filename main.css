@@ -1,0 +1,82 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    color: aliceblue;
+}
+.navbar{ 
+    padding: 20px;
+    
+}
+.navbar li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.wrapp-poster{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+    flex-direction: row;
+}
+#meny{
+    background-color: cadetblue;
+    padding: 20px;
+    width: 100%;
+    height: 25%
+    display: inline-block;
+    float: left;
+}
+#omoss{
+    background-color: lightpink;
+    padding: 20px;
+    width: 100%;
+    height: 25%;
+    display: inline-block;
+    float: left;
+}
+#booking{
+    background-color: coral;
+    padding: 20px;
+    width: 100%;
+    height: 25%;
+    display: inline-block;
+    float: left;
+}
+#galleri{
+    background-color: whitesmoke;
+    display: inline-block;
+    float: right;
+    
+}
+#aapningstider{
+    background-color: palevioletred;
+    padding: 20px;
+    width: 100%;
+    display: inline-block;
+    float: left;
+}
+
+.pic img{
+    float: inherit;
+    height: 200px;
+    align-items: center;
+}
+.home img{
+    width: 100%;
+}
+.logo img{
+    height: 20px;
+    margin-left: 10px;
+    display: inline-block;
+    float: right;
+}
+
+.copyright{
+     display: inline-block;
+    margin-left: 20px;
+}
