@@ -1,0 +1,108 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    color: aliceblue;
+}
+
+html, body {
+    height:100%;    
+}
+
+.navbar-toggler
+{
+    border: none;
+}
+
+.navbar-toggler img
+{
+    height: 40px;
+    
+}
+.navbar li a{
+    display: inline;
+    height: 50px;
+    
+}
+
+.navbar li{
+    display: block;
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30% 20% 30% 20%;
+    justify-content: center;
+}
+
+#omoss{
+    height: 100%;
+    background-image: url(Kaktus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+
+}
+
+.meny{
+    background-color: cadetblue;
+    padding: 10%;
+    padding-bottom: 10%;
+    height: 100%;
+
+}
+
+.aapningstider{
+    background-color: palevioletred;
+    padding: 10%;
+    padding-bottom: 10%;
+    height: 100%
+    
+}
+
+.booking{
+    background-color: slategrey;
+    padding: 10%;
+    padding-bottom: 10%;
+    height: 100%
+    
+}
+
+
+#galleri{
+    background-color: whitesmoke;
+}
+
+ul{
+    list-style-type: none;
+    padding: 20px;
+}
+
+.table{
+    align-content: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 25%;
+    max-width: 100%
+}
+
+.column img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.bunntekst img{
+    height: 40px;
+    margin-right: 10px;
+    display: inline-block;
+    float: right;
+}
